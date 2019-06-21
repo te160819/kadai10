@@ -16,7 +16,7 @@ public class BookController {
   BookService bookService;
   @ModelAttribute 
   BookForm setUpForm() {
-    return new BookForm();
+    return new BookForm();	
   }
   @GetMapping
   String list(Model model) {
